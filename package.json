@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc rellax.ts",
-    "watch": "tsc -w rellax.ts"
+    "watch": "tsc -w rellax.ts",
+    "prepublish": "npm run build"
   },
   "files": [
     "rellax.js"

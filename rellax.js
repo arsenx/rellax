@@ -10,7 +10,6 @@
 // ------------------------------------------
 exports.__esModule = true;
 var Rellax = function (el, options) {
-    "use strict";
     var self = Object.create(Rellax.prototype);
     var posY = 0;
     var screenY = 0;
