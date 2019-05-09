@@ -1,10 +1,12 @@
 {
   "name": "rellax-module",
-  "version": "1.9.1",
+  "version": "1.9.1-1",
   "description": "Lightweight, vanilla javascript parallax library",
   "main": "rellax.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc rellax.ts",
+    "watch": "tsc -w rellax.ts"
   },
   "files": [
     "rellax.js"
@@ -21,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/dixonandmoe/rellax/issues"
   },
-  "homepage": "https://dixonandmoe.com/rellax/"
+  "homepage": "https://dixonandmoe.com/rellax/",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
 }
