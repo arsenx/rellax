@@ -13,12 +13,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dixonandmoe/rellax.git"
+    "url": "git+https://gitlab.com/d2code-oss/rellax-module.git"
   },
   "keywords": [
     "parallax"
   ],
-  "author": "Moe Amaya <moe@dixonandmoe.com> (https://dixonandmoe.com)",
+  "author": "Arsen Hovhanissian <arsen@d2code.com> (https://www.d2code.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dixonandmoe/rellax/issues"
